@@ -4,7 +4,6 @@ sudo pacman -S openbox tint2 obconf lxappearance-obconf lxsession xfdesktop gvfs
 
 
 mkdir -p .config/openbox
-cp -R obx_2016/obx/* .config/openbox
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable lxdm
@@ -13,3 +12,6 @@ obx_2016/aur_ins
 
 mkdir .config/opensnap
 cp -r /usr/share/opensnap/sample_configs/* .config/opensnap
+cp /etc/xdg/compton.conf.example .config/compton.conf
+cp -r obx_2016/.local ~/.local
+cp -r obx_2016/.config ~/.config
