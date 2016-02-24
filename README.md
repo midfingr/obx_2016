@@ -9,8 +9,9 @@ Featuring Openbox and the Xfce4 Desktop for Arch Linux
 - then run:
 - obx_2016/ins
 - follow the prompts (yes or no y/n)
-- reboot when install is complete
-- 
+
+reboot when install is complete
+
 login with your user name via the lxdm display manager
 
 Thank you for downloading. Feedback is much appreciated. :)
