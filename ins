@@ -1,10 +1,10 @@
 # base install
 sudo pacman -Syy
-sudo pacman -S openbox obconf lxappearance-obconf lxsession xfdesktop gvfs lxterminal xarchiver zip unzip unrar p7zip archlinux-wallpaper xdg-user-dirs ttf-liberation leafpad chromium polkit-gnome gnome-keyring gksu gsimplecal mate-system-monitor python2-xdg gtk-engines gtk-engine-murrine gnome-themes-standard gnome-icon-theme networkmanager networkmanager-dispatcher-ntpd network-manager-applet lxdm ncdu ristretto tumbler wmctrl xorg-xprop xfce4-power-manager oblogout clipit xdotool
+sudo pacman -S openbox tint2 obconf lxappearance-obconf lxsession xfdesktop gvfs lxterminal xarchiver zip unzip unrar p7zip archlinux-wallpaper xdg-user-dirs ttf-liberation leafpad chromium polkit-gnome gnome-keyring gksu gsimplecal mate-system-monitor python2-xdg gtk-engines gtk-engine-murrine gnome-themes-standard gnome-icon-theme networkmanager networkmanager-dispatcher-ntpd network-manager-applet lxdm ncdu ristretto tumbler wmctrl xorg-xprop xfce4-power-manager oblogout clipit xdotool
 
 
 mkdir -p .config/openbox
-cp -R obx/* .config/openbox
+cp -R obx_2016/obx/* .config/openbox
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable lxdm
