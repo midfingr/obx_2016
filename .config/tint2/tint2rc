@@ -139,7 +139,7 @@ startup_notifications = 1
 launcher_tooltip = 1
 launcher_item_app = /usr/share/applications/chromium.desktop
 launcher_item_app = /usr/share/applications/exo-file-manager.desktop
-launcher_item_app = /usr/share/applications/lxterminal.desktop
+launcher_item_app = /usr/share/applications/xfce4-terminal.desktop
 launcher_item_app = /usr/share/applications/mate-system-monitor.desktop
 launcher_item_app = ~/.local/share/applications/logout.desktop
 
