@@ -4,6 +4,7 @@ sudo pacman -S openbox obconf lxappearance-obconf lxsession xfdesktop gvfs lxter
 
 
 mkdir -p .config/openbox
+cp -R obx/* .config/openbox
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable lxdm
