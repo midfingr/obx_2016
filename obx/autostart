@@ -17,7 +17,8 @@
 #xfce-mcs-manager &
 tint2 &
 xfdesktop &
-compton -b &
+compton --config .config/compton.conf -b
 opensnap &
 xfce4-power-manager &
 lxpolkit &
+clipit &
