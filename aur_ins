@@ -1,1 +1,1 @@
-sudo pacman -U aur_files/*.tar.xz
+sudo pacman -U obx_2016/aur_files/*.tar.xz
