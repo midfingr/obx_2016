@@ -2,16 +2,20 @@
 Featuring Openbox and the Xfce4 Desktop for Arch Linux
 # Installation
 - install git via pacman (if needed)
-- in a terminal or console type:
+- in a terminal or console, type:
 - git clone https://github.com/midfingr/obx_2016
-- once downloaded, simple make the install executable:
+- once downloaded, simply make the install executable:
 - chmod +x obx_2016/ins
 - then run:
 - obx_2016/ins
-- follow the prompts (yes or no y/n)
+- follow the prompts (yes or no -- y/n)
 
 reboot when the installation is complete
 
 login with your user name via the lxdm display manager
+
+when logged in, remove the git folder from within your home folder:
+in a terminal type: sudo rm -rf obx_2016
+
 
 Thank you for downloading. Feedback is much appreciated. :)
