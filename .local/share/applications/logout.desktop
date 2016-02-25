@@ -3,4 +3,4 @@ Type=Application
 Name=Logout
 Exec=oblogout
 Icon=/usr/share/icons/UltraFlatIcons/actions/scalable/exit.svg
-Categories=System;
+Categories=System;X-XFCE;X-Xfce-Toplevel;
