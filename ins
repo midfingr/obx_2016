@@ -1,13 +1,13 @@
 # base install
 sudo pacman -Syy
-sudo pacman -S openbox tint2 obconf lxappearance-obconf lxsession xfdesktop gvfs xfce4-terminal xfce4-notifyd xarchiver zip unzip unrar p7zip archlinux-wallpaper xdg-user-dirs ttf-liberation leafpad chromium polkit-gnome gnome-keyring gksu gsimplecal mate-system-monitor python2-xdg gtk-engines gtk-engine-murrine gnome-themes-standard gnome-icon-theme networkmanager networkmanager-dispatcher-ntpd network-manager-applet lxdm ncdu ristretto tumbler wmctrl xorg-xprop xfce4-power-manager oblogout clipit xdotool
+sudo pacman -S openbox tint2 obconf lxappearance-obconf xfdesktop gvfs xfce4-terminal xfce4-notifyd xarchiver zip unzip unrar p7zip archlinux-wallpaper xdg-user-dirs ttf-liberation leafpad chromium polkit-gnome gnome-keyring gksu gsimplecal mate-system-monitor python2-xdg gtk-engines gtk-engine-murrine gnome-themes-standard gnome-icon-theme networkmanager networkmanager-dispatcher-ntpd network-manager-applet lightdm lightdm-gtk-greeter ncdu ristretto tumbler wmctrl xorg-xprop xfce4-power-manager oblogout clipit xdotool
 
 
 mkdir -p .config/openbox
 cp -r obx_2016/obx/* ~/.config/openbox
 
 sudo systemctl enable NetworkManager
-sudo systemctl enable lxdm
+sudo systemctl enable lightdm
 sudo chmod +x obx_2016/aur_ins
 obx_2016/aur_ins
 
@@ -18,4 +18,3 @@ cp -r obx_2016/.local/share/applications ~/.local/share/
 cp -R obx_2016/.config/* ~/.config
 cp obx_2016/.gtkrc-2.0 .gtkrc-2.0
 sudo cp obx_2016/oblogout.conf /etc/oblogout.conf
-sudo cp obx_2016/lxdm.conf /etc/lxdm/lxdm.conf
