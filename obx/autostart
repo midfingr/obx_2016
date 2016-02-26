@@ -20,5 +20,4 @@ xfdesktop &
 compton --config .config/compton.conf -b
 opensnap &
 xfce4-power-manager &
-lxpolkit &
 clipit &
