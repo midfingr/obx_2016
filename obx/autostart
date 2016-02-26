@@ -20,4 +20,5 @@ xfdesktop &
 compton --config .config/compton.conf -b
 opensnap &
 xfce4-power-manager &
-clipit &
+parcellite &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
