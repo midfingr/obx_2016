@@ -1,6 +1,8 @@
 # obx_2016
 Featuring Openbox and the Xfce4 Desktop for Arch Linux
-# Youtube Video: https://youtu.be/SEvL_Iyca-Q
+
+Youtube Video: https://youtu.be/SEvL_Iyca-Q
+
 # Installation
 - install git via pacman (if needed)
 - in a terminal or console, type:
