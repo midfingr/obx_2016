@@ -12,7 +12,7 @@ Featuring Openbox and the Xfce4 Desktop for Arch Linux
 
 reboot when the installation is complete
 
-login with your user name via the lxdm display manager
+login with your user name via the lightdm display manager
 
 when logged in, remove the git folder from within your home folder:
 in a terminal type: sudo rm -rf obx_2016
